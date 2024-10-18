@@ -19,7 +19,7 @@ program
         if(!options.input){
             console.error('Please, specify input file');
         }
-        if(!fs.existsSync(options.input)){
+        else if(!fs.existsSync(options.input)){
             console.error('Cannot find input file');
         }
         if(options.output){
