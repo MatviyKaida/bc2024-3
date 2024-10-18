@@ -28,6 +28,6 @@ program
         if(options.display){
             console.log(`Максимальний курс:${operation(options.input)}`);
         }
-    })
+    }) 
     program.parse(process.argv);
     
